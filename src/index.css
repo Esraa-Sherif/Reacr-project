@@ -1,0 +1,61 @@
+.navbar , footer {
+  background-color: #2C3E50;
+}
+.icon2{
+  width: 50px;
+  height: 50px;
+  border:1px solid white;
+  border-radius: 50%;
+}
+.footer-feet{
+ background-color: #1A252F; 
+}
+header , .about {
+  background-color: #1ABc9C;
+}
+.icon-home{
+  position: relative;
+}
+.icon-home::after{
+  position: absolute;
+  content: "";
+  top: 30%;
+  left:58%;
+  height: 4px;
+  width:35%
+  background-color #fff;
+}
+.icon-home::before{
+  position: absolute;
+  content: "";
+  top: 30%;
+  right:58%;
+  height: 4px;
+  width:35%
+  background-color#fff;
+}
+.fa-plus{
+  font-size: 70px;
+  font-weight: bolder;
+  color:white;
+}
+.portfolio-item{
+  position: relative;
+}
+.plus{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.portfolio-item:hover .plus{ opacity: 1;}
+.send , .semd:hover{
+  color: #fff;
+  background-color: #1ABc9C;
+}
